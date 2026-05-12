@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fresher Data Analyst Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Fonts: Poppins + Sora -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Sora:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <!-- Font Awesome for icons (optional) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- ========== NAVIGATION BAR ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <div class="nav-wrapper">
+        <!-- Logo -->
+        <div class="logo">
+          <a href="#hero" class="logo-text">
+            <span class="logo-emoji">📊</span>
+            <span class="logo-name">Data Analyst</span>
+          </a>
+        </div>
+
+        <!-- Nav Links -->
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+
+        <!-- CTA Button -->
+        <a href="#contact" class="btn-nav-cta">Let's Talk</a>
+
+        <!-- Hamburger Menu -->
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ========== HERO SECTION ========== -->
+  <section class="hero" id="hero">
+    <div class="container">
+      <div class="hero-content">
+        <!-- Left: Text Content -->
+        <div class="hero-text fade-in-up" style="animation-delay: 0.1s;">
+          <div class="hero-badge">
+            <span class="badge-dot"></span>
+            <span class="badge-text">Available for All Opportunities</span>
+          </div>
+
+          <h1 class="hero-title">
+          <span class="accent-text">Cassim Attia</span>
+          </h1>
+
+          <p class="hero-subtitle">
+            Data Analyst | Transforming Data into Actionable Insights
+          </p>
+
+          <p class="hero-description">
+            I'm a passionate fresher data analyst equipped with strong foundational skills in Excel, SQL, Power BI, and Python. I love solving real-world business problems through data-driven insights and creating compelling visualizations.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+          </div>
+
+          <!-- Social Links in Hero -->
+          <div class="hero-social">
+            <a href="https://github.com/kasim374" target="_blank" rel="noopener" class="social-icon" title="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://linkedin.com/in/cassimattia" target="_blank" rel="noopener" class="social-icon" title="LinkedIn">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="mailto:cassimattia70@gmail.com" class="social-icon" title="Email">
+              <i class="fas fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Right: Illustration/Placeholder -->
+        <div class="hero-visual fade-in-up" style="animation-delay: 0.3s;">
+          <div class="profile-card">
+            <!-- Profile Image Placeholder -->
+            <div class="profile-image">
+              <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" class="placeholder-svg">
+                <!-- Background circle -->
+                <circle cx="100" cy="100" r="95" fill="#E0F7FA" stroke="#00BCD4" stroke-width="2"/>
+                
+                <!-- Head -->
+                <circle cx="100" cy="70" r="25" fill="#00BCD4" opacity="0.3"/>
+                <circle cx="100" cy="70" r="25" fill="none" stroke="#00BCD4" stroke-width="2"/>
+                
+                <!-- Body -->
+                <ellipse cx="100" cy="130" rx="35" ry="30" fill="#00BCD4" opacity="0.2"/>
+                <ellipse cx="100" cy="130" rx="35" ry="30" fill="none" stroke="#00BCD4" stroke-width="2"/>
+              </svg>
+              <div class="profile-label">Your Photo</div>
+            </div>
+
+            <!-- Floating Stats Cards -->
+            <div class="stat-card stat-card-1 float-animation" style="animation-delay: 0s;">
+              <div class="stat-icon">📊</div>
+              <div class="stat-text">
+                <div class="stat-number">50+</div>
+                <div class="stat-label">Datasets</div>
+              </div>
+            </div>
+
+            <div class="stat-card stat-card-2 float-animation" style="animation-delay: 0.2s;">
+              <div class="stat-icon">📈</div>
+              <div class="stat-text">
+                <div class="stat-number">15+</div>
+                <div class="stat-label">Projects</div>
+              </div>
+            </div>
+
+            <div class="stat-card stat-card-3 float-animation" style="animation-delay: 0.4s;">
+              <div class="stat-icon">🎯</div>
+              <div class="stat-text">
+                <div class="stat-number">100%</div>
+                <div class="stat-label">Dedication</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Scroll Down Indicator -->
+      <div class="scroll-down">
+        <div class="scroll-arrow"></div>
+        <p>Scroll Down</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT SECTION ========== -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="section-header fade-in-on-scroll">
+        <h2 class="section-title">About Me</h2>
+        <div class="title-underline"></div>
+      </div>
+
+      <div class="about-content">
+        <!-- Left: Bio -->
+        <div class="about-text fade-in-on-scroll">
+          <p class="about-paragraph">
+            I'm a <strong>data-driven fresher</strong> with a passion for transforming raw data into meaningful insights. During my academic journey, I've developed strong skills in data analysis, visualization, and business case studies.
+          </p>
+
+          <p class="about-paragraph">
+            My expertise spans <strong>Excel</strong> for data manipulation, <strong>SQL</strong> for database querying, <strong>Power BI</strong> for creating interactive dashboards, and <strong>Python</strong> for advanced analytics. I believe in the power of data to drive informed decisions.
+          </p>
+
+          <p class="about-paragraph">
+            When I'm not analyzing data, I'm exploring new tools, learning best practices in analytics, and staying updated with industry trends. I'm eager to bring my fresh perspective and growing expertise to help organizations unlock the potential in their data.
+          </p>
+
+          <a href="#projects" class="btn btn-primary btn-sm">See My Projects</a>
+        </div>
+
+        <!-- Right: Skills Grid -->
+        <div class="about-skills fade-in-on-scroll">
+          <div class="skills-grid">
+            <div class="skill-card">
+              <div class="skill-icon">📊</div>
+              <h4>Excel</h4>
+              <p>Data manipulation, Pivot Tables, VLOOKUP, Charts</p>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-icon">🗄️</div>
+              <h4>SQL</h4>
+              <p>Queries, Joins, Aggregations, Data Cleaning</p>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-icon">📈</div>
+              <h4>Power BI</h4>
+              <p>Dashboards, DAX, Data Modeling, Visualizations</p>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-icon">🐍</div>
+              <h4>Python</h4>
+              <p>Pandas, NumPy, Matplotlib, Data Analysis</p>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-icon">💼</div>
+              <h4>Business Case Studies</h4>
+              <p>Problem solving, Insights, Recommendations</p>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-icon">✨</div>
+              <h4>Data Visualization</h4>
+              <p>Storytelling, Interactive Reports</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROJECTS SECTION ========== -->
+  <section class="projects" id="projects">
+    <div class="container">
+      <div class="section-header fade-in-on-scroll">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="title-underline"></div>
+        <p class="section-subtitle">A showcase of my data analysis work and technical skills</p>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- Project Card 1 -->
+        <div class="project-card fade-in-on-scroll" style="animation-delay: 0.1s;">
+          <div class="project-header">
+            <div class="project-number">01</div>
+            <div class="project-tools">
+              <span class="tool-badge">Excel</span>
+              
+            </div>
+          </div>
+
+          <h3 class="project-title">Sales Performance & Customer Insights Analysis</h3>
+
+          <p class="project-description">
+            This project provides a comprehensive analysis of sales trends, customer behavior, and product performance using Excel. The analysis aims to identify high-value customers, top-performing product categories, and regional sales distributions to drive informed business decisions.
+          </p>
+
+          <div class="project-meta">
+            <span class="meta-item">📊 Data Visualization</span>
+            <span class="meta-item">🎯 Insights</span>
+          </div>
+
+          <a href="https://github.com/kasim374/Sales-Analysis-Dashboard" target="_blank" rel="noopener" class="project-link">
+            View on GitHub
+            <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <!-- Project Card 2 -->
+        <div class="project-card fade-in-on-scroll" style="animation-delay: 0.2s;">
+          <div class="project-header">
+            <div class="project-number">02</div>
+            <div class="project-tools">
+              <span class="tool-badge">SQL</span>
+             
+          </div>
+          </div>
+
+          <h3 class="project-title">Event Management</h3>
+
+          <p class="project-description">
+            his project implements an Event Management System using SQL. It demonstrates core to advanced SQL concepts such as CRUD operations, filtering, joins, subqueries, aggregate functions, window functions, and case expressions.
+          </p>
+
+          <div class="project-meta">
+            
+            <span class="meta-item">📈 Analytics</span>
+          </div>
+
+          <a href="https://github.com/kasim374/Event_Management.SQL" target="_blank" rel="noopener" class="project-link">
+            View on GitHub
+            <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <!-- Project Card 3 -->
+        <div class="project-card fade-in-on-scroll" style="animation-delay: 0.3s;">
+          <div class="project-header">
+            <div class="project-number">03</div>
+            <div class="project-tools">
+              <span class="tool-badge">Power BI</span>
+            
+            </div>
+          </div>
+
+          <h3 class="project-title">Sales And Customer Intelligence Dashboard</h3>
+
+          <p class="project-description">
+            Designed as a strategic decision-support tool, this project transforms unstructured retail data into actionable business intelligence. The goal is to identify core revenue drivers, analyze regional performance, and segment the customer base to optimize marketing ROI and inventory management.
+          </p>
+
+          <div class="project-meta">
+            <span class="meta-item">💡 Strategy</span>
+            <span class="meta-item">📊 Dashboard</span>
+          </div>
+
+          <a href="https://github.com/kasim374/STUDENT-PERFORMANCE-DASHBOARD" target="_blank" rel="noopener" class="project-link">
+            View on GitHub
+            <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <!-- Project Card 4 -->
+        <div class="project-card fade-in-on-scroll" style="animation-delay: 0.4s;">
+          <div class="project-header">
+            <div class="project-number">04</div>
+            <div class="project-tools">
+              <span class="tool-badge">SQL</span>
+              <span class="tool-badge">POWER BI</span>
+               <span class="tool-badge">Business Case Study</span>
+            </div>
+          </div>
+
+          <h3 class="project-title">Urban Analytics Case Study</h3>
+
+          <p class="project-description">
+            WattWatch is a comprehensive business case study focused on urban energy consumption patterns. By integrating SQL-based data engineering with Power BI visualization, this project analyzes energy efficiency, outage frequencies, and tariff-based cost distribution across various city zones and consumer types (Industrial, Residential, and Commercial).
+
+          <div class="project-meta">
+            <span class="meta-item">Data Visualization</span>
+            <span class="meta-item">📉 Case Study</span>
+          </div>
+
+          <a href="https://github.com/kasim374/Urban-Analytics-Case-Study" target="_blank" rel="noopener" class="project-link">
+            View on GitHub
+            <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <!-- Project Card 5 -->
+        <div class="project-card fade-in-on-scroll" style="animation-delay: 0.5s;">
+          <div class="project-header">
+            <div class="project-number">05</div>
+            <div class="project-tools">
+              <span class="tool-badge">SQL</span>
+              <span class="tool-badge">Power BI</span>
+            </div>
+          </div>
+
+          <h3 class="project-title">HR Analytics Dashboard</h3>
+
+          <p class="project-description">
+            Built an HR analytics dashboard using Power BI. Tracked employee metrics, attrition rates, and department performance with interactive filters and KPIs.
+          </p>
+
+          <div class="project-meta">
+            <span class="meta-item">👔 HR Data</span>
+            <span class="meta-item">📊 Dashboard</span>
+          </div>
+
+          <a href="https://github.com/yourusername/hr-analytics" target="_blank" rel="noopener" class="project-link">
+            View on GitHub
+            <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <!-- Project Card 6 -->
+        <div class="project-card fade-in-on-scroll" style="animation-delay: 0.6s;">
+          <div class="project-header">
+            <div class="project-number">06</div>
+            <div class="project-tools">
+              <span class="tool-badge">Excel</span>
+              <span class="tool-badge">Python</span>
+            </div>
+          </div>
+
+          <h3 class="project-title">Financial Performance Analysis</h3>
+
+          <p class="project-description">
+            Analyzed quarterly financial data using Excel and Python. Created comparative analysis and variance reports with actionable insights for management review.
+          </p>
+
+          <div class="project-meta">
+            <span class="meta-item">💰 Finance</span>
+            <span class="meta-item">📊 Analysis</span>
+          </div>
+
+          <a href="https://github.com/yourusername/financial-analysis" target="_blank" rel="noopener" class="project-link">
+            View on GitHub
+            <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SKILLS SECTION ========== -->
+  <section class="skills" id="skills">
+    <div class="container">
+      <div class="section-header fade-in-on-scroll">
+        <h2 class="section-title">My Skills</h2>
+        <div class="title-underline"></div>
+      </div>
+
+      <div class="skills-wrapper">
+        <!-- Skill Bars -->
+        <div class="skill-bars fade-in-on-scroll">
+          <div class="skill-item">
+            <div class="skill-header">
+              <span class="skill-label">Microsoft Excel</span>
+              
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-target="100" style="width: 0;"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-header">
+              <span class="skill-label">SQL</span>
+             
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-target="100" style="width: 0;"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-header">
+              <span class="skill-label">Power BI</span>
+             
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-target="100" style="width: 0;"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-header">
+              <span class="skill-label">Python</span>
+             
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-target="100" style="width: 0;"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Additional Skills -->
+        <div class="additional-skills fade-in-on-scroll">
+          <h3 class="additional-skills-title">Other Skills</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Data Cleaning</span>
+            <span class="skill-tag">Statistical Analysis</span>
+            <span class="skill-tag">Data Visualization</span>
+            <span class="skill-tag">Business Analytics</span>
+            <span class="skill-tag">Case Studies</span>
+            <span class="skill-tag">Google Sheets</span>
+            <span class="skill-tag">Problem Solving</span>
+            <span class="skill-tag">Communication</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT SECTION ========== -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-header fade-in-on-scroll">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="title-underline"></div>
+        <p class="section-subtitle">Let's collaborate! Feel free to reach out for opportunities or just to say hello.</p>
+      </div>
+
+      <div class="contact-wrapper">
+        <!-- Contact Info -->
+        <div class="contact-info fade-in-on-scroll">
+          <div class="contact-card">
+            <div class="contact-icon">📧</div>
+            <h4>Email</h4>
+            <a href="mailto:Cassimattia70@gmail.com" class="contact-link">Cassimattia70@gmail.com</a>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-icon">💼</div>
+            <h4>LinkedIn</h4>
+            <a href="https://linkedin.com/in/cassimattia" target="_blank" rel="noopener" class="contact-link">linkedin.com/in/cassimattia</a>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-icon">🐙</div>
+            <h4>GitHub</h4>
+            <a href="https://github.com/kasim374" target="_blank" rel="noopener" class="contact-link">github.com/kasim374</a>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <form class="contact-form fade-in-on-scroll" id="contactForm" onsubmit="handleFormSubmit(event)">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="Cassim Attia" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="cassimattia70@gmail.com" required>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="About..." rows="5" required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+          <p class="form-status" id="formStatus"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4 class="footer-title">Portfolio</h4>
+          <p class="footer-text">A showcase of my data analysis projects and technical expertise.</p>
+        </div>
+
+        <div class="footer-section">
+          <h4 class="footer-title">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h4 class="footer-title">Social</h4>
+          <div class="footer-social">
+            <a href="https://github.com/kasim374" target="_blank" rel="noopener" title="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://linkedin.com/in/cassimattia" target="_blank" rel="noopener" title="LinkedIn">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="mailto:cassimattia70@gmail.com" title="Email">
+              <i class="fas fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="year"></span> Cassim Attia. All rights reserved. | Crafted with <span class="heart">❤</span> and Data</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
